@@ -11,3 +11,10 @@ Utilisation de :
 4) solidity pour les smartcontract "https://docs.soliditylang.org/en/latest/".
 
 video explicative pour comprendre un peu comment tout ça marche "https://www.youtube.com/watch?v=M576WGiDBdQ".
+
+
+les fichiers importants : 
+1) reseau.sol dans le dossier contracts (le code solidity)
+2) deploy.py scripts
+3) le fichier multipletest.py est le pour test plusieur cas 
+4) les autres fichier ce cree automatiquement
