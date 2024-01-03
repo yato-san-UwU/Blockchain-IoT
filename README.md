@@ -6,7 +6,7 @@ Implémentation de la solution "Trust Management in Decentralized IoT Access Con
 
 Utilisation de :
 1) la blockchain ethereum.
-2) python avec brownie lien "https://eth-brownie.readthedocs.io/en/stable".
+2) python avec brownie lien "https://eth-brownie.readthedocs.io/en/stable".   (version de python 3.9)
 3) ganache "https://trufflesuite.com/ganache/".
 4) solidity pour les smartcontract "https://docs.soliditylang.org/en/latest/".
 
