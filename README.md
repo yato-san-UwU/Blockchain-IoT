@@ -18,3 +18,12 @@ les fichiers importants :
 2) deploy.py scripts
 3) le fichier multipletest.py est le pour test plusieur cas 
 4) les autres fichier ce cree automatiquement
+
+
+lancer le programme : 
+
+brownie init //crée un dossier
+brownie networks list // voir les reseaux dispo
+brownie networks add {network_class} {your_network_name} host={your_host} chainid={your_chaid}  // crée un nouveau reseaux ( attaché ganache avec brownie )
+  ""exemple : brownie networks add Ethereum ganache-local host=http://0.0.0.0:8545 chainid=1337""
+brownie run scripts/deploy.py --network "nom de reseaux"
