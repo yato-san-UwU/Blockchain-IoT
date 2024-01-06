@@ -22,8 +22,8 @@ les fichiers importants :
 
 lancer le programme : 
 
-brownie init //crée un dossier
-brownie networks list // voir les reseaux dispo
-brownie networks add {network_class} {your_network_name} host={your_host} chainid={your_chaid}  // crée un nouveau reseaux ( attaché ganache avec brownie )
+1) brownie init //crée un dossier
+2) brownie networks list // voir les reseaux dispo
+3) brownie networks add {network_class} {your_network_name} host={your_host} chainid={your_chaid}  // crée un nouveau reseaux ( attaché ganache avec brownie )
   ""exemple : brownie networks add Ethereum ganache-local host=http://0.0.0.0:8545 chainid=1337""
-brownie run scripts/deploy.py --network "nom de reseaux"
+4) brownie run scripts/deploy.py --network "nom de reseaux"
