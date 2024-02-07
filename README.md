@@ -27,3 +27,6 @@ lancer le programme :
 3) brownie networks add {network_class} {your_network_name} host={your_host} chainid={your_chaid}  // crée un nouveau reseaux ( attaché ganache avec brownie )
   ""exemple : brownie networks add Ethereum ganache-local host=http://0.0.0.0:8545 chainid=1337""
 4) brownie run scripts/deploy.py --network "nom de reseaux"
+
+
+architecture.cc => represente le code sous NS3 avec netanim pour avoir une idee de la topologie
